@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+header{
+  background-image: url("images/banner/banner1.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  text-align: right;
+  display: flex ;
+  align-items: center;
+}
+header div{
+  width: 50%;
+  padding-right: 200px;
+}
+.hero h1{
+    
+    font-size: 65px;
+    font-weight: 700;
+}
+.hero p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.hero button{
+  margin-top: 20px;
+  padding: 20px 26px;
+  border: 0;
+  border-radius: 5px;
+  background: #F15B22;
+  color: #FFF;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+.about{
+  display: flex;
+  align-items: center;
+  padding: 140px 200px;
+  position:relative;
+}
+.circle{
+  position: absolute;
+  width: 535px;
+  height: 535px;
+  z-index: -3;
+  background-color: #f15b2259;
+  border-radius: 50%;
+  bottom: 146px;
+  left: 216px;
+}
+.about h2{
+  margin-left: -24px;
+  color: #151414;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about p{
+  margin-left: -24px;
+  color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.about ul li{
+    color: #444343;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.about ul{
+  list-style-image: url('images/icon.svg');
+}
+.about_content{
+  margin-left:104px;
+}
+#info{
+  width: 1140px;
+  height: 350px;
+   margin: 0 auto;
+}
+#info h2{
+  color:  #151414;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.info-box{
+  display: flex;
+ 
+  justify-content: center;
+}
+.info-box div{
+  width: 25%;
+  line-height: 35px;
+  text-align: center;
+}
+.info-box img{
+  width: 93px;
+  height: 93px;
+  margin: 0 auto;
+}
+.info-box h3{
+    color: #151414;
+    text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.info-box p{
+  color:  #737272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
