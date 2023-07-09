@@ -3,6 +3,7 @@
   margin: 0;
   font-family: 'Work Sans', sans-serif;
 }
+/*Header*/
 header{
   background-image: url("images/banner/banner1.png");
   width: 100%;
@@ -39,6 +40,8 @@ header div{
   font-weight: 600;
   line-height: normal;
   }
+
+  /*About*/
 .about{
   display: flex;
   align-items: center;
@@ -85,6 +88,7 @@ header div{
 .about_content{
   margin-left:104px;
 }
+/*Info*/
 #info{
   width: 1140px;
   height: 350px;
@@ -131,6 +135,7 @@ header div{
   font-weight: 500;
   line-height: normal;
 }
+/*CTA*/
 #cta{
   width: 1140px;
   height: 300px;
@@ -168,6 +173,7 @@ line-height: normal;
   line-height: normal;
   border-radius: 15px;
 }
+/*Footer*/
 footer{
 width: 100%;
     height: 380px;
